@@ -11,13 +11,12 @@ export const Container = styled.div`
         padding: 1.5rem;
         border-radius: 0.25rem;
         color: var(--text-title);
-    }
 
-    header {
+        header {
         display: flex;
         align-items: center;
         justify-content: space-between;
-    }
+        }
 
     strong {
         display: block;
@@ -31,5 +30,5 @@ export const Container = styled.div`
         background: var(--green);
         color: #FFF;
     }
-
+    }
 `
